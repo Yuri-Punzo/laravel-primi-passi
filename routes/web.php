@@ -14,6 +14,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $user = "Yuri Punzo";
-    return view('welcome', compact("user"));
+    $welcome = "welcome";
+    return view('welcome', compact("welcome"));
+});
+
+/* Route::get('/', function () {
+    $user = [   
+        "name" => "Yuri Punzo II"
+    ];
+    return view('welcome', $user);
+}); */
+
+Route::get('/about', function () {
+    $info = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ipsam expedita assumenda!";
+    return view('about', compact("info"));
 });

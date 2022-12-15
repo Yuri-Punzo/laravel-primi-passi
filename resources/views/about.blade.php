@@ -1,14 +1,3 @@
-<!-- 
-CONSEGNA:
-Facciamo quindi sì che la rotta / visualizzi home.blade.php
-Inizialmente stampiamo un Hello World,
-poi passiamo dei dati alla view in modo da visualizzarli dinamicamente con Blade.
-
-Bonus:
-Creiamo più di una pagina e visualizziamo un header menu con i link
-di tutte le pagine, utilizzando la funzione route()
- -->
-
 <!doctype html>
 <html lang="en">
 
@@ -23,12 +12,12 @@ di tutte le pagine, utilizzando la funzione route()
 
 <body>
     <header>
-        <a href="#">Home</a>
-        <a href="/about">About</a>
+        <a href="/">Home</a>
+        <a href="#">About</a>
     </header>
     <!-- /header -->
     <main>
-        <h1>{{$welcome}}</h1>
+        <h1>{{$info}}</h1>
         <!-- <h1>graffa graffa dollaro NAME graffa graffa</h1> -->
     </main>
     <!-- /main -->
