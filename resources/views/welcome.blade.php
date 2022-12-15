@@ -26,7 +26,7 @@ di tutte le pagine, utilizzando la funzione route()
     </header>
     <!-- /header -->
     <main>
-        <p>{{$user}}</p>
+        <h1>{{$user}}</h1>
     </main>
     <!-- /main -->
     <footer>
