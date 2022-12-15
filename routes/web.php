@@ -19,10 +19,10 @@ Route::get('/', function () {
 });
 
 /* Route::get('/', function () {
-    $user = [   
+    $welcome = [   
         "name" => "Yuri Punzo II"
     ];
-    return view('welcome', $user);
+    return view('welcome', $welcome);
 }); */
 
 Route::get('/about', function () {
